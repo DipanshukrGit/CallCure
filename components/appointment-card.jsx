@@ -67,7 +67,7 @@ export function AppointmentCard({
     data: completeData,
   } = useFetch(markAppointmentCompleted);
 
-  // Format date and time
+  // Format date and timee
   const formatDateTime = (dateString) => {
     try {
       return format(new Date(dateString), "MMMM d, yyyy 'at' h:mm a");
